@@ -1,0 +1,42 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+main h1{
+    text-align: center;
+}
+
+.card{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: lightslategrey;
+    padding-bottom: 2.5rem;
+}
+.card .main-content {
+    display: flex !important;
+}
+.card a{
+    float: right;
+    display: inline-block;
+    justify-content: right;
+    padding: 0.5rem;
+    background-color: bisque;
+    border-radius: 5px;
+}
+.title{
+    font-size: large;
+    padding: 0.5rem 1rem;
+    border-bottom: 3px solid black;
+}
+.main-content img{
+    height: 200px;
+    width: 200px;
+    padding: 1rem 0rem;
+}
+.main-content p {
+    padding: 1.5rem;
+}
